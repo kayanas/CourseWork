@@ -1,0 +1,92 @@
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: rgba(172, 0, 0, 0.402);
+}
+
+.about {
+  margin-top: 50px;
+}
+
+.aboutus {
+  display: flex;
+}
+
+.save {
+  align-items: center;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.card {
+  margin: 10px;
+}
+
+.info {
+  margin-top: 50px;
+}
+
+.insert {
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.logo {
+  margin-left: 10px;
+  width: 200px;
+}
+
+.navbar {
+  background-color: rgb(255, 149, 0);
+}
+
+.navbar-brand {
+  font-size: 30px !important;
+}
+
+.sort {
+  display: inline;
+}
+
+.search {
+  margin-right: 10px;
+}
+
+.table * {
+  text-align: center;
+}
+
+.planas {
+  height: 80vh;
+  width: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  color: white;
+  background: #262626;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content {
+  padding-top: 30px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.logologo{
+  width: 100px;
+  height: 50px;
+}
