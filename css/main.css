@@ -7,63 +7,34 @@ a:active {
 }
 
 .about {
-  margin-top: 50px;
-}
-
-.aboutus {
+  margin-top: 20px;
   display: flex;
 }
+.about * h3{
+ padding: 20px;
+}
 
-.save {
-  align-items: center;
-  text-align: center;
-  margin-top: 15px;
-  margin-left: 15px;
+
+.btn-info{
+  background-color: #fac176;
+  padding: 10px;
+  margin-bottom: 10px;
+  transition: 0.5s ease-in-out;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+
+.btn-info:hover{
+  background: transparent;
+  color: aliceblue;
 }
 
 .card {
   margin: 10px;
 }
 
-.info {
-  margin-top: 50px;
-}
-
-.insert {
-  align-items: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.logo {
-  margin-left: 10px;
-  width: 200px;
-}
-
-.navbar {
-  background-color: rgb(255, 149, 0);
-}
-
-.navbar-brand {
-  font-size: 30px !important;
-}
-
-.sort {
-  display: inline;
-}
-
-.search {
-  margin-right: 10px;
-}
-
-.table * {
-  text-align: center;
-}
-
-.planas {
-  height: 80vh;
-  width: 100%;
+.card-img{
+margin-top: 10px;
 }
 
 .footer {
@@ -86,7 +57,55 @@ a:active {
   margin-bottom: 20px;
 }
 
+
+.insert {
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.logo {
+  margin-left: 10px;
+  width: 200px;
+}
+
 .logologo{
   width: 100px;
   height: 50px;
 }
+
+.navbar {
+  background-color: rgb(255, 149, 0);
+}
+
+.navbar-brand {
+  font-size: 30px !important;
+}
+
+.planas {
+  margin-top: 20px;
+  height: 70vh;
+  width: 100%;
+}
+
+.save {
+  align-items: center;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.sort {
+  display: inline;
+}
+
+.search {
+  margin-right: 10px;
+}
+
+.table * {
+  text-align: center;
+}
+
+

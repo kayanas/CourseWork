@@ -4,21 +4,9 @@ include "./header.php"
 
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body style="background-color: orange">
-
     <div class="container about">
 
-        <div class="">
+        <div>
             <div>
                 <h3>DARBO LAIKAS</h3>
                 <span>
@@ -29,7 +17,7 @@ include "./header.php"
             </div>
 
 
-            <div class="info">
+            <div>
                 <h3>Kur kreiptis?</h3>
                 <p><strong>Dėl prekybinio ploto kreiptis:</strong><br>
                     Tel. +370 618 63 646:</p>
@@ -41,7 +29,7 @@ include "./header.php"
                     El.p. reklama@urmas.net</p>
             </div>
 
-            <div class="info">
+            <div>
                 <h3>Rekvizitai</h3>
                 <p>UAB „Urmo prekybos miestelis” <br>
                     Įmonės kodas 305358488 </p>
@@ -52,4 +40,3 @@ include "./header.php"
         </div>
     </div>
 
-    <?php include "./footer.php";
